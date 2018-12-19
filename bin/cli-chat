@@ -40,7 +40,7 @@ chat.start((err, msgInfo) => {
   if (err) {
     console.error(`${config.indent}${err}`)
   } else {
-    notifier.notify(`${msgInfo.username}: ${msgInfo.msg}`);
+    notifier.notify(`New message from: ${msgInfo.username}`);
     console.log(`${config.indent}${msgInfo.username}: ${msgInfo.msg}`)
   }
   rl.prompt()
