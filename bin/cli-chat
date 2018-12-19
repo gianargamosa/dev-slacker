@@ -10,7 +10,6 @@ const username = require('username')
 
 const Chat = require('../lib/cli-chat')
 const pkg = require('../package.json')
-const notifier = require('node-notifier');
 
 program
   .version(pkg.version)
@@ -42,7 +41,6 @@ chat.start((err, msgInfo) => {
   } else {
     console.log(`${config.indent}${msgInfo.username}: ${msgInfo.msg}`)
   }
-  notifier.notify(`New message from: ${msgInfo.username}`);
   rl.prompt()
 })
 
