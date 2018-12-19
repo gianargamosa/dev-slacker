@@ -39,7 +39,7 @@ chat.start((err, msgInfo) => {
   if (err) {
     console.error(`${config.indent}${err}`)
   } else {
-    console.log(`${config.indent}${msgInfo.username}: ${msgInfo.msg}`)
+    console.log(`${msgInfo.username}: ${msgInfo.msg}`)
   }
   rl.prompt()
 })
