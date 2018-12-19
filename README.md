@@ -1,27 +1,25 @@
-## cli-chat
+## DevSlacker
 
-cli chat. Try it out ~
-
-![screenshot](./screenshot.png)
+DevSlacker is a messaging tool for internal development team. It's like a irc
 
 **Note**: v3 use `tcp`, v4 use `udp`.
 
 ### Install
 
 ```sh
-$ npm i cli-chat -g
+$ npm i devslacker -g
 ```
 
 ### Usage
 
 ```sh
-$ cli-chat
+$ devslacker
 ```
 
 Options:
 
 ```sh
-  Usage: cli-chat [options]
+  Usage: devslacker [options]
 
 
   Options:
