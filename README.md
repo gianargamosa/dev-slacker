@@ -1,8 +1,15 @@
 ## DevSlacker
 
-DevSlacker is a messaging tool for internal development team. It's like a irc
+DevSlacker is a messaging tool for development team.
 
 **Note**: v3 use `tcp`, v4 use `udp`.
+
+### Feature
+
+```sh
+Send message to fellow dev connected to the same network.
+Send and receive notifications
+```
 
 ### Install
 
