@@ -53,7 +53,7 @@ rl.once('SIGINT', () => {
 rl.write(null, {ctrl: true, name: 'l'})
 process.stdout.clearLine()
 console.log('\n\n\n')
-rl.setPrompt(`${config.indent}${config.username}: `)
+rl.setPrompt(`${config.username}: `)
 rl.prompt()
 rl.on('line', (msg) => {
   chat.broadcast(msg)

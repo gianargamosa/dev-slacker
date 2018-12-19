@@ -1,10 +1,10 @@
 {
-  "name": "cli-chat-node",
-  "version": "4.1.9",
+  "name": "devslacker",
+  "version": "0.4.0",
   "description": "Internal communication channel for dev team.",
   "main": "lib/cli-chat",
   "bin": {
-    "slack-cli": "bin/cli-chat"
+    "devslacker": "bin/cli-chat"
   },
   "keywords": [
     "lan",
