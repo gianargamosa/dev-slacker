@@ -17,6 +17,7 @@ program
   .option('--subnetMask <subnetMask>', 'subnetMask, default: \'255.255.255.0\'')
   .option('--username <username>', 'username, default use current user')
   .option('--indent <indent>', 'indent, default: 20 space')
+  .option('--channel <channel>', 'channel, default: devteam')
   .parse(process.argv)
 
 const config = {
@@ -24,7 +25,8 @@ const config = {
   port: +program.port || 1234,
   subnetMask: program.subnetMask || '255.255.255.0',
   username: (program.username && program.username.trim()) || username.sync(),
-  indent: new Array(+program.indent || 20).join(' ')
+  indent: new Array(+program.indent || 20).join(' '),
+  channel: program.channel || 'devteam' 
 }
 
 const rl = readline.createInterface({
