@@ -1,6 +1,6 @@
-## DevSlacker
+## Dev Slacker
 
-DevSlacker is a messaging tool for development team.
+Dev Slacker is a messaging tool for development team.
 
 **Note**: v3 use `tcp`, v4 use `udp`.
 
